@@ -62,7 +62,7 @@ router.put("/:email", function(req, res) {
         if (firstName) {
             friend["firstName"] = firstName;
         }
-        if (lastNametName) {
+        if (lastName) {
             friend["lastName"] = lastName;
         }
         // Add similarly for firstName
